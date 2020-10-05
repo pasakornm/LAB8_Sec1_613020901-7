@@ -1,0 +1,165 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 134 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 4911990 0 0
+ciMethod java/lang/String length ()I 4097 1 1241702 0 64
+ciMethod java/lang/String charAt (I)C 4097 1 4587215 0 128
+ciMethodData java/lang/String charAt (I)C 2 4588781 orig 264 88 29 224 102 0 0 0 0 176 61 7 22 0 0 0 0 120 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 105 23 48 2 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 80 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 10 0x10007 0x0 0x40 0x46031d 0xa0007 0x460341 0x30 0x0 0x120002 0x0 oops 0
+ciMethodData java/lang/String length ()I 2 1241918 orig 264 88 29 224 102 0 0 0 0 96 60 7 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 241 137 151 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/Object <init> ()V 2 4911990 orig 264 88 29 224 102 0 0 0 0 128 4 7 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 177 139 87 2 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod org/xml/sax/Locator getLineNumber ()I 0 0 1 0 -1
+ciMethod org/xml/sax/Locator getColumnNumber ()I 0 0 1 0 -1
+ciMethod com/sun/org/apache/xerces/internal/xni/XMLLocator getLineNumber ()I 0 0 1 0 -1
+ciMethod com/sun/org/apache/xerces/internal/xni/XMLLocator getColumnNumber ()I 0 0 1 0 -1
+ciMethod com/sun/org/apache/xerces/internal/impl/XMLEntityScanner getLineNumber ()I 2121 1 3595 0 0
+ciMethod com/sun/org/apache/xerces/internal/impl/XMLEntityScanner getColumnNumber ()I 4097 1 3627 0 0
+ciMethod com/sun/org/apache/xerces/internal/parsers/AbstractSAXParser$LocatorProxy getLineNumber ()I 2081 1 3231 0 0
+ciMethod com/sun/org/apache/xerces/internal/parsers/AbstractSAXParser$LocatorProxy getColumnNumber ()I 4089 1 3267 0 0
+ciMethodData com/sun/org/apache/xerces/internal/parsers/AbstractSAXParser$LocatorProxy getLineNumber ()I 2 3240 orig 264 88 29 224 102 0 0 0 0 216 243 73 37 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 33 93 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x1dea49e0 0xba4 0x0 0x0 oops 1 2 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner
+ciMethodData com/sun/org/apache/xerces/internal/impl/XMLEntityScanner getLineNumber ()I 2 3604 orig 264 88 29 224 102 0 0 0 0 232 254 113 35 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 1 0 0 89 104 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 7 0x40007 0x0 0x38 0xd0b 0xe0003 0xd0b 0x18 oops 0
+ciMethodData com/sun/org/apache/xerces/internal/parsers/AbstractSAXParser$LocatorProxy getColumnNumber ()I 2 3273 orig 264 88 29 224 102 0 0 0 0 128 244 73 37 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 1 0 0 81 86 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x1dea49e0 0xaca 0x0 0x0 oops 1 2 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner
+ciMethodData com/sun/org/apache/xerces/internal/impl/XMLEntityScanner getColumnNumber ()I 2 3633 orig 264 88 29 224 102 0 0 0 0 64 0 114 35 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 137 97 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 7 0x40007 0x0 0x38 0xc31 0xe0003 0xc31 0x18 oops 0
+ciMethod com/android/utils/PositionXmlParser$DomBuilder getCurrentPosition ()Lcom/android/utils/PositionXmlParser$Position; 849 24593 2167 0 -1
+ciMethod com/android/utils/PositionXmlParser$Position <init> (III)V 1393 1 2752 0 0
+ciMethodData com/android/utils/PositionXmlParser$DomBuilder getCurrentPosition ()Lcom/android/utils/PositionXmlParser$Position; 2 16786 orig 264 88 29 224 102 0 0 0 0 16 223 242 40 0 0 0 0 112 3 0 0 248 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 12 0 0 153 64 0 0 121 172 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 34 0 2 0 0 0 40 2 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 69 0x40005 0x0 0x25fe3a30 0x813 0x0 0x0 0x100005 0x0 0x25fe3a30 0x813 0x0 0x0 0x1c0005 0x2 0x2c7f4e0 0x811 0x0 0x0 0x250007 0x813 0x168 0x358f 0x2d0007 0x0 0x148 0x358f 0x380005 0x1 0x2c7f4e0 0x358e 0x0 0x0 0x410007 0x358f 0xa8 0x0 0x4b0007 0x0 0x88 0x0 0x580005 0x0 0x0 0x0 0x0 0x0 0x5d0007 0x0 0x70 0x0 0x6f0003 0x0 0x50 0x760007 0x303a 0x38 0x555 0x880003 0x555 0x18 0x9f0003 0x358f 0xfffffffffffffeb0 0xb60007 0x7b8 0x20 0x5b 0xd30002 0x813 oops 4 2 com/sun/org/apache/xerces/internal/parsers/AbstractSAXParser$LocatorProxy 8 com/sun/org/apache/xerces/internal/parsers/AbstractSAXParser$LocatorProxy 14 java/lang/String 28 java/lang/String
+ciMethodData com/android/utils/PositionXmlParser$Position <init> (III)V 2 2852 orig 264 88 29 224 102 0 0 0 0 216 251 242 40 0 0 0 0 72 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 174 0 0 0 177 83 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xa76 oops 0
+instanceKlass com/google/common/collect/LinkedListMultimap$ValueForKeyIterator
+instanceKlass com/google/common/collect/LinkedListMultimap$DistinctKeyIterator
+instanceKlass com/google/common/collect/TransformedIterator
+instanceKlass com/google/common/collect/Multimaps$AsMap$EntrySet$1
+instanceKlass com/android/ide/common/resources/ValueResourceNameValidator
+instanceKlass com/android/resources/ResourceType$$Lambda$456
+instanceKlass com/android/resources/ResourceType$$Lambda$455
+instanceKlass com/android/utils/PositionXmlParser$Position
+instanceKlass com/sun/org/apache/xerces/internal/util/EntityResolver2Wrapper
+instanceKlass com/sun/org/apache/xerces/internal/dom/ParentNode$UserDataRecord
+instanceKlass com/android/utils/PositionXmlParser
+instanceKlass com/android/ide/common/resources/ValueResourceParser2
+instanceKlass com/google/common/collect/LinkedListMultimap$KeyList
+instanceKlass com/android/ide/common/rendering/api/StyleItemResourceValue
+instanceKlass com/android/ide/common/rendering/api/ResourceNamespace$Resolver
+instanceKlass com/android/ide/common/rendering/api/TextResourceValue
+instanceKlass com/android/ide/common/rendering/api/AttrResourceValue
+instanceKlass com/android/ide/common/rendering/api/PluralsResourceValue
+instanceKlass com/android/ide/common/rendering/api/ArrayResourceValue
+instanceKlass com/android/ide/common/rendering/api/StyleableResourceValue
+instanceKlass com/android/ide/common/rendering/api/StyleResourceValue
+instanceKlass com/android/ide/common/rendering/api/ResourceValueImpl
+instanceKlass com/android/ide/common/rendering/api/ResourceValue
+instanceKlass com/android/utils/SdkUtils
+instanceKlass com/android/ide/common/resources/FileResourceNameValidator
+instanceKlass com/google/common/collect/Sets$Accumulator$$Lambda$454
+instanceKlass com/google/common/collect/Sets$Accumulator$$Lambda$453
+instanceKlass com/google/common/collect/Sets$Accumulator$$Lambda$452
+instanceKlass com/google/common/collect/Sets$Accumulator$$Lambda$451
+instanceKlass com/google/common/collect/Sets$Accumulator
+instanceKlass com/android/resources/ResourceType$$Lambda$450
+instanceKlass com/android/resources/FolderTypeRelationship
+instanceKlass com/android/ide/common/resources/configuration/FolderConfiguration
+instanceKlass com/android/ide/common/resources/ResourceSet$FolderData
+instanceKlass com/android/build/gradle/tasks/MergeResources$$Lambda$449
+instanceKlass com/android/build/gradle/internal/tasks/Blocks$ThrowingBlock
+instanceKlass com/android/build/gradle/internal/aapt/WorkerExecutorResourceCompilationService
+instanceKlass com/android/build/gradle/internal/res/namespaced/RegisteredAaptService
+instanceKlass com/android/build/gradle/internal/res/namespaced/Aapt2DaemonManagerMaintainer
+instanceKlass com/android/builder/internal/aapt/v2/Aapt2DaemonManager$Listener
+instanceKlass com/android/builder/internal/aapt/v2/Aapt2DaemonManager
+instanceKlass com/android/build/gradle/internal/res/namespaced/Aapt2ServiceKey
+instanceKlass com/android/builder/internal/aapt/v2/Aapt2DaemonTimeouts
+instanceKlass com/android/build/gradle/internal/res/namespaced/Aapt2DaemonManagerService
+instanceKlass com/android/ide/common/blame/MergingLog
+instanceKlass com/android/ide/common/resources/DataItem
+instanceKlass com/android/ide/common/resources/ResourceItem
+instanceKlass com/android/ide/common/resources/configuration/Configurable
+instanceKlass com/google/common/collect/Table
+instanceKlass com/android/ide/common/resources/NoOpResourcePreprocessor
+instanceKlass com/android/ide/common/resources/PatternBasedFileFilter
+instanceKlass com/android/ide/common/resources/DataSet$$Lambda$448
+instanceKlass com/android/ide/common/rendering/api/ResourceNamespace
+instanceKlass com/android/ide/common/resources/DataFile
+instanceKlass com/android/build/gradle/internal/LoggerWrapper$LoggerSupplier
+instanceKlass com/android/ide/common/resources/configuration/ResourceQualifier
+instanceKlass com/android/builder/png/VectorDrawableRenderer
+instanceKlass com/android/build/gradle/tasks/MergeResources$$Lambda$447
+instanceKlass com/android/build/gradle/internal/tasks/IncrementalTask$taskAction$$inlined$recordTaskAction$1
+instanceKlass org/gradle/internal/execution/history/changes/NonIncrementalInputChanges$$Lambda$446
+instanceKlass org/gradle/work/FileChange
+instanceKlass org/gradle/internal/execution/history/changes/NonIncrementalInputChanges
+instanceKlass org/gradle/api/internal/artifacts/transform/PrecomputedTransformationResult
+instanceKlass org/gradle/internal/fingerprint/impl/RelativePathFingerprintingStrategy$1
+instanceKlass com/android/build/gradle/tasks/MergeResources$$Lambda$445
+instanceKlass org/gradle/internal/snapshot/impl/SerializedValueSnapshot
+instanceKlass com/android/build/gradle/internal/scope/OutputFactory$1
+instanceKlass java/io/BufferedReader$1
+instanceKlass com/android/ide/common/xml/ManifestData
+instanceKlass com/android/ide/common/xml/AndroidManifestParser
+instanceKlass com/android/ide/common/symbols/SymbolIo
+instanceKlass com/squareup/javawriter/JavaWriter
+instanceKlass com/android/builder/internal/ClassFieldImpl
+instanceKlass com/android/builder/compiling/BuildConfigGenerator
+instanceKlass org/gradle/internal/fingerprint/impl/IgnoredPathFingerprintingStrategy$1
+instanceKlass com/google/common/collect/ImmutableList$SerializedForm
+instanceKlass org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuter$4$1
+instanceKlass org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuter$4$2
+instanceKlass org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuter$4
+instanceKlass org/gradle/api/internal/tasks/TaskExecutionOutcome$1
+instanceKlass org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuter$3
+instanceKlass org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuter$2
+instanceKlass org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuter$TaskExecution$1
+instanceKlass com/android/build/gradle/internal/tasks/Blocks
+instanceKlass com/android/build/gradle/internal/tasks/NonIncrementalTask$taskAction$$inlined$recordTaskAction$1
+instanceKlass com/android/build/gradle/internal/tasks/Blocks$ThrowingBlockWithReturn
+instanceKlass org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuter$5
+instanceKlass org/gradle/internal/logging/compatbridge/LoggingManagerInternalCompatibilityBridge
+instanceKlass org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuter$1
+instanceKlass org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuter$TaskExecution
+instanceKlass org/gradle/api/internal/tasks/properties/InputParameterUtils
+instanceKlass java/util/IdentityHashMap$IdentityHashMapIterator
+instanceKlass org/gradle/api/internal/tasks/execution/statistics/TaskExecutionStatisticsEventAdapter$1
+instanceKlass org/gradle/cache/internal/DefaultMultiProcessSafePersistentIndexedCache$3
+instanceKlass org/gradle/cache/internal/AsyncCacheAccessDecoratedCache$3
+instanceKlass org/gradle/api/internal/tasks/execution/ResolveBeforeExecutionOutputsTaskExecuter$1
+instanceKlass org/gradle/internal/fingerprint/FileCollectionFingerprint$1
+instanceKlass org/gradle/api/internal/OverlappingOutputs
+instanceKlass org/gradle/api/internal/tasks/execution/ResolveAfterPreviousExecutionStateTaskExecuter$1
+instanceKlass org/gradle/api/internal/tasks/properties/DefaultTaskProperties$3
+instanceKlass org/gradle/api/internal/tasks/properties/GetInputPropertiesVisitor$1
+instanceKlass org/gradle/api/internal/tasks/properties/InputPropertySpec
+instanceKlass org/gradle/api/internal/tasks/properties/AbstractValidatingProperty
+instanceKlass org/gradle/api/internal/tasks/properties/ValidatingProperty
+instanceKlass org/gradle/api/internal/tasks/properties/LifecycleAwareValue
+instanceKlass org/gradle/api/internal/tasks/properties/InputFilePropertySpec
+instanceKlass org/gradle/api/internal/tasks/properties/CompositePropertyVisitor
+instanceKlass org/gradle/api/internal/tasks/properties/DefaultTaskProperties
+instanceKlass org/gradle/api/internal/tasks/properties/TaskProperties
+instanceKlass org/gradle/execution/plan/DefaultExecutionPlan$8$1$1
+instanceKlass org/gradle/execution/plan/DefaultExecutionPlan$8$1
+instanceKlass org/gradle/tooling/internal/provider/runner/OperationDependenciesResolver$$Lambda$444
+instanceKlass org/gradle/tooling/internal/provider/runner/OperationDependenciesResolver$$Lambda$443
+instanceKlass com/android/tools/build/gradle/internal/profile/GradleTaskExecutionType$1
+instanceKlass com/google/protobuf/GeneratedMessageV3$1
+instanceKlass com/google/protobuf/GeneratedMessageV3$Builder$BuilderParentImpl
+instanceKlass com/google/protobuf/SingleFieldBuilderV3
+instanceKlass org/gradle/api/internal/tasks/execution/ExecuteTaskBuildOperationResult
+instanceKlass org/gradle/api/internal/tasks/execution/ExecuteTaskBuildOperationType$Result
+instanceKlass org/gradle/api/internal/tasks/TaskExecuterResult$1
+instanceKlass java/util/stream/Collectors$$Lambda$442
+instanceKlass java/util/stream/Collectors$$Lambda$441
+instanceKlass org/gradle/tooling/internal/provider/runner/OperationDependenciesResolver$$Lambda$440
+instanceKlass org/gradle/tooling/internal/provider/runner/OperationDependenciesResolver$$Lambda$439
+instanceKlass org/gradle/tooling/internal/provider/runner/OperationDependenciesResolver$$Lambda$438
+instanceKlass org/gradle/tooling/internal/provider/runner/ProgressEventConsumer$$Lambda$437
+instanceKlass org/gradle/tooling/internal/provider/runner/ClientForwardingTaskOperationListener$$Lambda$436
+instanceKlass org/gradle/tooling/internal/provider/events/DefaultTaskDescriptor
+instanceKlass org/gradle/tooling/internal/protocol/events/InternalTaskWithExtraInfoDescriptor
+instanceKlass org/gradle/tooling/internal/protocol/events/InternalTaskDescriptor
+instanceKlass org/gradle/tooling/internal/provider/events/AbstractProgressEvent
+instanceKlass org/gradle/api/internal/tasks/execution/EventFiringTaskExecuter$1
+instanceKlass org/gradle/api/internal/tasks/execution/EventFiringTaskExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/CatchExceptionTaskExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/SkipOnlyIfTaskExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/SkipTaskWithNoActionsExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/ResolveTaskExecutionModeExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/FinalizePropertiesTaskExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/CleanupStaleOutputsExecuter
